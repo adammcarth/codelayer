@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Codelayer - Scalable Web Hosting in the Cloud</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  </head>
+  <body class="page-home">
+    <div class="header">
+      <div class="wrapper">
+        <object type="image/svg+xml" data="logo_thin.svg" class="logo" alt="Codelayer">
+          Codelayer
+        </object>
+        <div class="nav">
+          <a href="#"><li>Features</li></a>
+          <a href="#"><li>Pricing</li></a>
+          <a href="#"><li>Get started</li></a>
+          <a href="#"><li>Login</li></a>
+        </div><!-- /.nav -->
+        <div class="clear"></div>
+      </div><!-- /.wrapper -->
+    </div><!-- /.header -->
+    <div class="wrapper" style="position:relative; z-index:5;">
+      <h1 class="masthead">Scalable Web Hosting<span>in the Cloud.</span></h1>
+      <div class="clear"></div>
+      <center>
+        <a href="#" class="callout">Get My Code Online</a>
+      </center>
+    </div><!-- /.wrapper -->
+    <div class="down-arrow-container">
+      <a href="scroll.html"><div class="down-arrow"></div></a>
+    </div><!-- /.down-arrow-container -->
+    <div class="clouds-left"></div>
+    <div class="clouds-right"></div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+      $(".nav a li").click(function() {
+        $(".nav li").removeClass("current");
+        $(this).addClass("current");
+      });
+    </script>
+  </body>
+</html>
